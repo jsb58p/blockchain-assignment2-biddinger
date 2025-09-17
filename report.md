@@ -16,8 +16,18 @@
 
 - Compiler version (0.8.28)
  
-- Scripts used: scripts/deploy.ts, scripts/interact.ts, scripts/analyze.ts
+- Scripts used:
+
+  - scripts/deploy.ts scripts/interact.ts, scripts/analyze.ts
+
+![deploy.ts](https://github.com/jsb58p/blockchain-assignment2-biddinger/blob/main/screenshots/screenshot2(npx%20hardhat%20run%20deploy.ts%20--network%20localhost).png)
+
+  - scripts/interact.ts
+
+![interact.ts](https://github.com/jsb58p/blockchain-assignment2-biddinger/blob/main/screenshots/screenshot3(npx%20hardhat%20run%20interact.ts%20--network%20localhost).png)
  
+  - scripts/analyze (shown below)
+
 <br>
 
 ### Part B - Transaction Details (tx1/tx2/tx3)
@@ -49,6 +59,9 @@ Event: Transfer {
 }
 
 ```
+
+![tx1](https://github.com/jsb58p/blockchain-assignment2-biddinger/blob/main/screenshots/screenshot4(npx%20hardhat%20run%20analyze.ts%20--network%20localhost%201).png)
+
 Human Value: 100
 
 ---
@@ -77,6 +90,9 @@ Event: Transfer {
   value: 50000000000000000000n
 }
 ```
+
+![tx2](https://github.com/jsb58p/blockchain-assignment2-biddinger/blob/main/screenshots/screenshot4(npx%20hardhat%20run%20analyze.ts%20--network%20localhost%202).png)
+
 Human Value: 50
 
 ---
@@ -105,6 +121,8 @@ Event: Approval {
   value: 25000000000000000000n
 }
 ```
+![tx3](https://github.com/jsb58p/blockchain-assignment2-biddinger/blob/main/screenshots/screenshot4(npx%20hardhat%20run%20analyze.ts%20--network%20localhost%203).png)
+
 Human Value: 25
 
 <br>
