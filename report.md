@@ -134,6 +134,15 @@ Human Value: 25
 
 <br>
 
+  - Brief EIP-1559 explanation:
+    - EIP-1559 is a protocol upgrade that:
+      -  dynamically adjusts the base fee each block based on network congestion (block fullness).
+
+      - Burns the base fee to reduce supply.
+
+      - Lets users set a priority tip to incentivize miners to prioritize their transactions.
+    - This system improves fee predictability, helps reduce ETH supply, and stabilizes gas prices.
+
 ## Part D - Decimals & Conversions
 
 <br>
@@ -141,4 +150,4 @@ Human Value: 25
 - Example of raw vs human for tx1:
   - raw value: 100000000000000000000n
   - human value = raw value / 10^18
-  - 100000000000000000000 / 10^18 = **100**
+  - 100000000000000000000 / 10^18 = **100** human value
